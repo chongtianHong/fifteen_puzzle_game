@@ -64,7 +64,7 @@ function changeImage() {
      * 如果使用appendChid方法将原dom树中的节点添加到DocumentFragment中时，会删除原来的节点。 
      */
     var frag = document.createDocumentFragment(); //往拼图板块中加图
-    if (varGroup.index >= 7) {
+    if (varGroup.index >= 8) {
         varGroup.index = 0; // 只有7张图片可以换
     }
     for (var i = 0; i < 4; ++i) {
